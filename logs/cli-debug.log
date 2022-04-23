@@ -1,0 +1,11 @@
+2022-04-17 04:41:21 Notice: Notice (8): Undefined variable: routes in [/home/thierry/www/jaxon/frw/cakephp-4.2/config/routes.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 61
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 950
+require - ROOT/config/routes.php, line 88
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 197
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 399
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 147
+[main] - ROOT/bin/cake.php, line 12
+

@@ -1,0 +1,22 @@
+2022-04-17 04:39:16 Error: [Error] Class 'Jaxon\Cake\Middleware\AjaxMiddleware' not found in /home/thierry/www/jaxon/frw/cakephp-4.2/config/routes.php on line 58
+Stack Trace:
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /home/thierry/www/jaxon/frw/cakephp-4.2/config/routes.php:88
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Http/BaseApplication.php:197
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Console/CommandRunner.php:399
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /home/thierry/www/jaxon/frw/cakephp-4.2/bin/cake.php:12
+
+
+
+2022-04-17 04:41:21 Error: [Error] Call to a member function scope() on null in /home/thierry/www/jaxon/frw/cakephp-4.2/config/routes.php on line 61
+Stack Trace:
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:950
+- /home/thierry/www/jaxon/frw/cakephp-4.2/config/routes.php:88
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Http/BaseApplication.php:197
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Console/CommandRunner.php:399
+- /home/thierry/www/jaxon/frw/cakephp-4.2/vendor/cakephp/cakephp/src/Console/CommandRunner.php:147
+- /home/thierry/www/jaxon/frw/cakephp-4.2/bin/cake.php:12
+
+
+
