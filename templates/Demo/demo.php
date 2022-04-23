@@ -6,7 +6,7 @@
             <div class="col-sm-9 content">
                 <h3 class="page-header"><?php echo $pageTitle ?></h3>
 
-                <!-- <div class="row" id="jaxon-html">
+                <div class="row" id="jaxon-html">
                     <div class="col-md-12" id="div1">
                         &nbsp;
                     </div>
@@ -42,9 +42,7 @@
                         <button type="button" class="btn btn-primary" onclick='<?php echo $bts->sayHello(0) ?>; return false;' >Click Me</button>
                         <button type="button" class="btn btn-primary" onclick="<?php echo $bts->showDialog() ?>; return false;" >Bootstrap Dialog</button>
                     </div>
-                </div> -->
-
-                <?php echo $dbAdmin ?>
+                </div>
 
                 </div>
             </div> <!-- class="content" -->
@@ -53,7 +51,7 @@
 <div id="jaxon-init">
 <script type='text/javascript'>
     /* <![CDATA[ */
-    /*window.onload = function() {
+    window.onload = function() {
         // call the helloWorld function to populate the div on load
         <?php echo $pgw->sayHello(0, false) ?>;
         // call the setColor function on load
@@ -62,7 +60,7 @@
         <?php echo $bts->sayHello(0, false) ?>;
         // call the HelloWorld->setColor() method on load
         <?php echo $bts->setColor(pm()->select('colorselect2'), false) ?>;
-    };*/
+    };
     /* ]]> */
 </script>
 </div>

@@ -9,7 +9,7 @@ return [
     'app' => [
         'directories' => [
             $directory => [
-                'namespace' => '\\Jaxon\\Ajax',
+                'namespace' => '\\Jaxon\\Demo\\Ajax',
                 'register' => false,
                 // 'separator' => '', // '.' or '_'
                 // 'protected' => [],
