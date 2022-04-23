@@ -1,5 +1,5 @@
 {
-    "name": "cakephp/app",
+    "name": "jaxon-php/jaxon-demo-cakephp",
     "description": "CakePHP skeleton app",
     "homepage": "https://cakephp.org",
     "type": "project",
@@ -28,7 +28,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Jaxon\\Demo\\Ajax\\": "jaxon/ajax/"
         }
     },
     "autoload-dev": {
