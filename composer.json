@@ -12,7 +12,7 @@
         "mobiledetect/mobiledetectlib": "^2.8",
         "jaxon-php/jaxon-cake": "^4.0",
         "jaxon-php/jaxon-dialogs": "^4.0",
-        "jaxon-php/jaxon-annotations": "^1.1"
+        "jaxon-php/jaxon-annotations": "^1.2"
     },
     "require-dev": {
         "cakephp/bake": "^2.3",
