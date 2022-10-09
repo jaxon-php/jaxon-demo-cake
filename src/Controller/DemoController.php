@@ -7,7 +7,8 @@ use Jaxon\Demo\Ajax\Pgw;
 use Cake\Core\Configure;
 use Cake\Routing\Router;
 
-use function jaxon;
+use function Jaxon\jaxon;
+use function Jaxon\pm;
 
 class DemoController extends AppController
 {
@@ -27,6 +28,8 @@ class DemoController extends AppController
         $this->set('bts', $jaxon->request(Bts::class));
         // Jaxon request to the Pgw Jaxon class
         $this->set('pgw', $jaxon->request(Pgw::class));
+        // Jaxon Parameter Factory
+        $this->set('pm', pm());
 
         $this->render('demo');
     }
