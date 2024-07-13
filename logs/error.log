@@ -3143,3 +3143,831 @@ Client IP: 127.0.0.1
 
 2022-04-23 01:58:26 Warning: DebugKit is disabling itself as your host `cake.jaxon.loc` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2022-04-23 01:58:30 Warning: DebugKit is disabling itself as your host `cake.jaxon.loc` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2024-07-04 18:45:38 Error: [Error] Call to undefined method Jaxon\App\Ajax\App::request() in C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\Controller\DemoController.php on line 28
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:164
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /
+
+
+2024-07-04 18:49:17 Error: [Cake\View\Exception\MissingHelperException] Helper class JaxonHelper could not be found. in C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'JaxonHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:1215
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\View\AppView.php:42
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:350
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewBuilder.php:574
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php:75
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:698
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\Controller\DemoController.php:32
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /
+
+
+2024-07-13 07:06:32 Error: [Cake\View\Exception\MissingHelperException] Helper class JaxonHelperHelper could not be found. in C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'JaxonHelperHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:1215
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\View\AppView.php:40
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:350
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewBuilder.php:574
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php:75
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:698
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\Controller\DemoController.php:33
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:164
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /
+
+
+2024-07-13 07:07:13 Error: [Cake\View\Exception\MissingHelperException] Helper class JaxonHelperHelper could not be found. in C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'JaxonHelperHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:102
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:1215
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\View\AppView.php:40
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\View.php:350
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewBuilder.php:574
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php:75
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:698
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\src\Controller\DemoController.php:33
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:149
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /
+
+
+2024-07-13 07:08:02 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.app.php`
+ in demo.buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:08:02 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.ext.php`
+ in demo.buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:08:16 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.app.php`
+ in demo.buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:08:16 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.ext.php`
+ in demo.buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:13:43 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.app.php`
+ in demo.buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:13:44 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.ext.php`
+ in demo.buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:14:31 Error: [Cake\View\Exception\MissingElementException] Element file `buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\buttons.app.php`
+ in buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:14:31 Error: [Cake\View\Exception\MissingElementException] Element file `buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\buttons.ext.php`
+ in buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:15:01 Error: [Cake\View\Exception\MissingElementException] Element file `buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\buttons.app.php`
+ in buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:15:02 Error: [Cake\View\Exception\MissingElementException] Element file `buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\buttons.ext.php`
+ in buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:17:57 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.app.php`
+ in demo.buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:17:58 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.ext.php`
+ in demo.buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:18:46 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.app.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.app.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.app.php`
+ in demo.buttons.app.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.app.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:71
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\App\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
+2024-07-13 07:18:46 Error: [Cake\View\Exception\MissingElementException] Element file `demo.buttons.ext.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\templates\element\demo.buttons.ext.php`
+- `C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\templates\element\demo.buttons.ext.php`
+ in demo.buttons.ext.php on line 661
+Exception Attributes: array (
+  'file' => 'demo.buttons.ext.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\templates\\element\\',
+    1 => 'C:\\Users\\kfeuz\\workspace\\contrib\\jaxon\\jaxon-demo-cake\\vendor\\cakephp\\cakephp\\templates\\element\\',
+  ),
+)
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\View.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\View\Store.php:122
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Buttons.php:9
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\App\Component.php:71
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\jaxon\ajax\Ext\Test.php:20
+- ReflectionMethod::invokeArgs() - [internal], line ??- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:244
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableObject.php:369
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Plugin\Request\CallableClass\CallableClassPlugin.php:246
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:158
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\RequestHandler.php:198
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrAjaxMiddleware.php:74
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-core\src\Request\Handler\Psr\PsrConfigMiddleware.php:57
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\ConfigMiddleware.php:79
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:167
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\webroot\index.php:40
+
+Request URL: /ajax
+Referer URL: http://localhost:8765/
+
+
