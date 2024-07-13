@@ -37,6 +37,6 @@ class AppView extends View
      */
     public function initialize(): void
     {
-        $this->loadHelper('Jaxon');
+        $this->loadHelper('Jaxon/Cake.Jaxon');
     }
 }
