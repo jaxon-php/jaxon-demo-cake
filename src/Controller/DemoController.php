@@ -2,38 +2,28 @@
 
 namespace App\Controller;
 
-use Jaxon\Demo\Ajax\Bts;
-use Jaxon\Demo\Ajax\Pgw;
-use Cake\Core\Configure;
-use Cake\Routing\Router;
+use Jaxon\Demo\Ajax\App\Test as AppTest;
+use Jaxon\Demo\Ajax\App\Buttons as AppButtons;
+use Jaxon\Demo\Ajax\Ext\Test as ExtTest;
+use Jaxon\Demo\Ajax\Ext\Buttons as ExtButtons;
 
-use function Jaxon\jaxon;
-use function Jaxon\pm;
+use function Jaxon\rq;
 
 class DemoController extends AppController
 {
     public function index()
     {
-        $jaxon = jaxon()->app();
-
         // Set the layout
         $this->viewBuilder()->setLayout('empty');
 
-        $this->set('csrfToken', $this->request->getAttribute('csrfToken'));
-        $this->set('jaxonCss', $jaxon->css());
-        $this->set('jaxonJs', $jaxon->js());
-        $this->set('jaxonScript', $jaxon->script());
         $this->set('pageTitle', "Cake Framework");
-        // Jaxon request to the Bts Jaxon class
-        $this->set('bts', $jaxon->request(Bts::class));
-        // Jaxon request to the Pgw Jaxon class
-        $this->set('pgw', $jaxon->request(Pgw::class));
-        // Jaxon Parameter Factory
-        $this->set('pm', pm());
+        $this->set('csrfToken', $this->request->getAttribute('csrfToken'));
+
+        $this->set('appTest', rq(AppTest::class));
+        $this->set('rqAppButtons', rq(AppButtons::class));
+        $this->set('extTest', rq(ExtTest::class));
+        $this->set('rqExtButtons', rq(ExtButtons::class));
 
         $this->render('demo');
     }
-
-    public function jaxon()
-    {}
 }

@@ -20,3 +20,15 @@ Stack Trace:
 
 
 
+2024-07-04 18:42:48 Error: [Error] Call to undefined function jaxon() in C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\jaxon-php\jaxon-cake\src\Middleware\AjaxMiddleware.php on line 26
+Stack Trace:
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\config\routes.php:50
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php:950
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\config\routes.php:88
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Http\BaseApplication.php:197
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:399
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\vendor\cakephp\cakephp\src\Console\CommandRunner.php:147
+- C:\Users\kfeuz\workspace\contrib\jaxon\jaxon-demo-cake\bin\cake.php:12
+
+
+

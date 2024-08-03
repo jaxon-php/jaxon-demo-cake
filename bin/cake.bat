@@ -20,7 +20,7 @@
 SET app=%0
 SET lib=%~dp0
 
-php "%lib%cake.php" %*
+/c/wamp64/bin/php/php8.0.26/php.exe "%lib%cake.php" %*
 
 echo.
 

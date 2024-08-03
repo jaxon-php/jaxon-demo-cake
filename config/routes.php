@@ -23,7 +23,6 @@
 
 use Cake\Routing\Route\DashedRoute;
 use Cake\Routing\RouteBuilder;
-use Jaxon\Cake\Middleware\AjaxMiddleware as JaxonAjaxMiddleware;
 use Jaxon\Cake\Middleware\ConfigMiddleware as JaxonConfigMiddleware;
 
 /*
@@ -47,24 +46,24 @@ use Jaxon\Cake\Middleware\ConfigMiddleware as JaxonConfigMiddleware;
 $routes->setRouteClass(DashedRoute::class);
 
 $routes->scope('/', function (RouteBuilder $builder) {
-    $builder->registerMiddleware('jaxon.ajax', new JaxonAjaxMiddleware());
     $builder->registerMiddleware('jaxon.config', new JaxonConfigMiddleware());
     $builder->applyMiddleware('jaxon.config');
-
-    $builder->scope('/ajax', function (RouteBuilder $builder) {
-        // Jaxon ajax middlewares and route.
-        $builder->applyMiddleware('jaxon.ajax');
-
-        $builder->post('/', ['controller' => 'Demo', 'action' => 'jaxon', '_name' => 'jaxon']);
-    });
 
     /*
      * Here, we are connecting '/' (base path) to a controller called 'Pages',
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, templates/Pages/home.php)...
      */
-    // $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
     $builder->connect('/', ['controller' => 'Demo', 'action' => 'index', 'home']);
+});
+
+$routes->scope('/', function (RouteBuilder $builder) {
+    /*
+     * Here, we are connecting '/' (base path) to a controller called 'Pages',
+     * its action called 'display', and we pass a param to select the view file
+     * to use (in this case, templates/Pages/home.php)...
+     */
+    // $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
     /*
      * ...and connect the rest of 'Pages' controller's URLs.
