@@ -9,7 +9,7 @@ use function Jaxon\jq;
             <div class="col-sm-9 content">
                 <h3 class="page-header"><?= $pageTitle ?></h3>
                 <div class="row">
-                    <div class="col-md-12" <?= $this->Jaxon->show($appTest) ?>>
+                    <div class="col-md-12" <?= $this->Jaxon->bind($appTest) ?>>
                         Initial content : <?= $this->Jaxon->html($appTest) ?>
                     </div>
                     <div class="col-md-4 margin-vert-10">
@@ -20,10 +20,10 @@ use function Jaxon\jq;
                             <option value="blue">Blue</option>
                         </select>
                     </div>
-                    <div class="col-md-8 margin-vert-10" <?= $this->Jaxon->show($rqAppButtons) ?>>
+                    <div class="col-md-8 margin-vert-10" <?= $this->Jaxon->bind($rqAppButtons) ?>>
                     </div>
 
-                    <div class="col-md-12" <?= $this->Jaxon->show($extTest) ?>>
+                    <div class="col-md-12" <?= $this->Jaxon->bind($extTest) ?>>
                         Initial content : <?= $this->Jaxon->html($extTest) ?>
                     </div>
                     <div class="col-md-4 margin-vert-10">
@@ -34,7 +34,7 @@ use function Jaxon\jq;
                             <option value="blue">Blue</option>
                         </select>
                     </div>
-                    <div class="col-md-8 margin-vert-10" <?= $this->Jaxon->show($rqExtButtons) ?>>
+                    <div class="col-md-8 margin-vert-10" <?= $this->Jaxon->bind($rqExtButtons) ?>>
                     </div>
                 </div>
             </div> <!-- class="content" -->
